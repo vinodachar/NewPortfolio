@@ -12,7 +12,7 @@ import Reveal from "./Reveal.jsx";
 const SUPPORT_STATS = [
   { to: 34.2, decimals: 1, suffix: "K+", label: "Followers" },
   { to: 30, decimals: 0, suffix: "K+", label: "Growth in 3 months" },
-  { to: 4, decimals: 0, suffix: "+", label: "Years in cloud engineering" },
+  { to: 3, decimals: 0, suffix: "", label: "Services — ads, editing, workshops" },
   { to: 89, decimals: 0, suffix: "", label: "Posts, consistent growth" },
 ];
 

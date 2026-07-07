@@ -5,6 +5,7 @@ import { WHATSAPP } from "../constants.js";
 const LINKS = [
   { label: "About", href: "#about" },
   { label: "Content", href: "#content" },
+  { label: "Services", href: "#services" },
   { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
@@ -40,7 +41,7 @@ export default function Navbar() {
           href="#top"
           className="font-display font-bold text-lg tracking-tightest uppercase"
         >
-          Vinod<span className="text-accent"> B.</span>
+          Vinod<span className="text-accent"> Achar</span>
         </a>
 
         {/* desktop links */}

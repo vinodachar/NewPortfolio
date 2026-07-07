@@ -5,5 +5,26 @@ export const WHATSAPP = `https://wa.me/917795664765?text=${encodeURIComponent(
 )}`;
 
 export const INSTAGRAM = "https://instagram.com/ai.with.vi_";
+export const VVLABS_INSTAGRAM = "https://instagram.com/vvlabs007";
 export const LINKEDIN = "https://linkedin.com/in/vinod985";
-export const EMAIL = "mailto:vinodachar985@gmail.com";
+
+// Email opens with a pre-filled subject + message.
+export const EMAIL_ADDRESS = "aiwithvinod985@gmail.com";
+export const EMAIL = `mailto:${EMAIL_ADDRESS}?subject=${encodeURIComponent(
+  "Business Inquiry — AI Ads / Editing / Workshop / Software"
+)}&body=${encodeURIComponent(
+  `Hi Vinod,
+
+I found you through your portfolio and I'm interested in working with you.
+
+I'm looking for (pick one or more):
+- AI ad / video production (VV Labs)
+- Video editing for my business
+- AI workshop (school / college / corporate)
+- AI-powered custom software / website
+
+A little about me / my brand:
+
+Best,
+`
+)}`;

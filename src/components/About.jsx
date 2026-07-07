@@ -7,14 +7,14 @@ const CARDS = [
     icon: "📡",
   },
   {
-    title: "Real Engineering Background",
-    body: "4+ years shipping cloud systems with AWS, Kubernetes, Docker and Terraform.",
-    icon: "⚙️",
+    title: "VV Labs — AI Ad Studio",
+    body: "My AI video production studio making ads, brand films and object-talking videos for brands.",
+    icon: "🎬",
   },
   {
-    title: "Prompt Engineering",
-    body: "Deep hands-on expertise turning AI tools into repeatable, practical workflows.",
-    icon: "⌘",
+    title: "AI Workshops",
+    body: "Hands-on AI training for schools, colleges and corporate teams — practical, not theoretical.",
+    icon: "🎓",
   },
   {
     title: "Community Growth",
@@ -37,13 +37,13 @@ export default function About() {
 
         <Reveal delay={0.15}>
           <p className="mt-8 max-w-3xl text-lg md:text-xl leading-relaxed text-muted">
-            I&apos;m an AI Content Creator and DevOps Engineer building at the
-            intersection of automation, cloud, and artificial intelligence.
-            With 4+ years in DevOps, I&apos;ve designed scalable cloud systems
-            using AWS, Kubernetes, Docker, and Terraform. Today I combine that
-            technical depth with content — turning complex AI tools into
-            simple, practical, viral-worthy insights for a Kannada-speaking
-            audience.
+            I&apos;m an AI Content Creator and the founder of VV Labs, an AI ad
+            making studio. I turn complex AI tools into simple, practical,
+            viral-worthy content for a Kannada-speaking audience — and put the
+            same AI to work for businesses through AI-powered ads, video
+            editing for small brands, and hands-on AI workshops for schools,
+            colleges and corporate teams. It&apos;s all backed by a real
+            engineering background in cloud and automation.
           </p>
         </Reveal>
 

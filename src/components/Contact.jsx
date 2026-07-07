@@ -1,8 +1,8 @@
 import Reveal from "./Reveal.jsx";
-import { WHATSAPP, INSTAGRAM, LINKEDIN, EMAIL } from "../constants.js";
+import { WHATSAPP, INSTAGRAM, LINKEDIN, EMAIL, EMAIL_ADDRESS } from "../constants.js";
 
 const CHANNELS = [
-  { label: "Email", value: "vinodachar985@gmail.com", href: EMAIL },
+  { label: "Email", value: EMAIL_ADDRESS, href: EMAIL },
   { label: "Instagram", value: "@ai.with.vi_", href: INSTAGRAM },
   { label: "LinkedIn", value: "in/vinod985", href: LINKEDIN },
 ];
@@ -29,8 +29,9 @@ export default function Contact() {
 
         <Reveal delay={0.15}>
           <p className="mx-auto mt-8 max-w-md text-muted">
-            One message away. WhatsApp is the fastest — collabs, brand work, or
-            just AI talk.
+            One message away. WhatsApp is the fastest — AI ads, editing,
+            workshops, collabs, or just AI talk. Email opens with a ready-made
+            message.
           </p>
           <div className="mt-10">
             <a

@@ -2,6 +2,14 @@ import Reveal from "./Reveal.jsx";
 
 const ROLES = [
   {
+    org: "VV Labs",
+    role: "Founder",
+    period: "2026 — Present",
+    place: "Bengaluru",
+    body: "AI ad making studio — AI video production for brands, AI-powered ad campaigns and object-talking product videos. Also delivering editing for small businesses and AI workshops for schools, colleges and corporates.",
+    highlight: true,
+  },
+  {
     org: "Instagram — @ai.with.vi_",
     role: "Content Creator",
     period: "Jan 2026 — Present",
@@ -39,7 +47,7 @@ export default function Experience() {
         <Reveal>
           <p className="eyebrow mb-4">Experience</p>
           <h2 className="display-lg max-w-3xl">
-            The engineering
+            The journey
             <span className="text-accent"> behind the content.</span>
           </h2>
         </Reveal>

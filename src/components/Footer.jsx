@@ -3,6 +3,7 @@ import { WHATSAPP, INSTAGRAM, LINKEDIN, EMAIL } from "../constants.js";
 const LINKS = [
   { label: "About", href: "#about" },
   { label: "Content", href: "#content" },
+  { label: "Services", href: "#services" },
   { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
@@ -57,10 +58,10 @@ export default function Footer() {
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div>
             <p className="font-display font-bold text-xl tracking-tightest uppercase">
-              Vinod<span className="text-accent"> B.</span>
+              Vinod<span className="text-accent"> Achar</span>
             </p>
             <p className="mt-2 text-sm text-muted">
-              AI Content Creator | Cloud &amp; DevOps Engineer
+              AI Content Creator | Founder, VV Labs — AI Ad Studio
             </p>
           </div>
 
@@ -94,7 +95,7 @@ export default function Footer() {
         </div>
 
         <p className="mt-12 border-t border-line pt-6 text-center font-display text-[11px] uppercase tracking-wideish text-muted">
-          © 2026 Vinod B. All rights reserved.
+          © 2026 Vinod Achar. All rights reserved.
         </p>
       </div>
     </footer>

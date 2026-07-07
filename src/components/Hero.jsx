@@ -162,8 +162,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.75 }}
           className="mx-auto mt-8 max-w-xl text-base md:text-lg text-muted"
         >
-          AI Content Creator &amp; Cloud Engineer helping creators and brands
-          use AI to grow — 3M+ average views, one tool at a time.
+          AI Content Creator &amp; founder of VV Labs — AI ads, video editing,
+          workshops and AI-powered software &amp; websites that help brands
+          grow. 3M+ average views, one video at a time.
         </motion.p>
 
         <motion.div

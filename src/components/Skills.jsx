@@ -7,14 +7,21 @@ const GROUPS = [
       "Prompt Engineering",
       "AI Tools & Automation",
       "Generative AI",
-      "ChatGPT",
       "Content Strategy",
-      "Prompt Writing",
+      "AI Workshops & Training",
+      "Community Building",
     ],
   },
   {
-    title: "Cloud & DevOps",
-    skills: ["AWS", "Kubernetes", "Docker", "Terraform", "Jenkins", "CI/CD"],
+    title: "AI Video & Editing",
+    skills: [
+      "AI Video Production",
+      "AI-Powered Ads",
+      "Object-Talking Videos",
+      "Reels & Short-Form Editing",
+      "Captions & Motion Graphics",
+      "Brand Creatives",
+    ],
   },
 ];
 
@@ -57,6 +64,24 @@ export default function Skills() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={0.18}>
+          <div className="mt-6 card flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-10 p-8">
+            <span className="font-display text-xs uppercase tracking-wideish text-muted">
+              Also fluent in
+            </span>
+            <div className="flex flex-wrap gap-3">
+              {["AWS", "Kubernetes", "Docker", "Terraform", "CI/CD"].map((s) => (
+                <span
+                  key={s}
+                  className="rounded-full border border-line bg-ink px-4 py-2 font-display text-xs uppercase tracking-wide text-muted"
+                >
+                  {s}
+                </span>
+              ))}
+            </div>
+          </div>
+        </Reveal>
 
         <Reveal delay={0.2}>
           <div className="mt-6 card flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-10 p-8">
